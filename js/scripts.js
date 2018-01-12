@@ -15,4 +15,76 @@ $(document).ready(function() {
         $("#kirby-theme").show();
         $("#light-theme").hide();
     });
+    $("#submit-button").click(function() {
+        var sonic = 0;
+        var mario = 0;
+        var samus = 0;
+        var kirby = 0;
+        
+        if ($("input:radio[name=activity]:checked").val() == "sonic") {
+            sonic += 1;
+        }
+        if ($("input:radio[name=activity]:checked").val() == "mario") {
+            mario += 1;
+        }
+        if ($("input:radio[name=activity]:checked").val() == "samus") {
+            samus += 1;
+        }
+        if ($("input:radio[name=activity]:checked").val() == "kirby") {
+            kirby += 1;
+        }
+        // 
+        if ($("input:radio[name=color]:checked").val() == "sonic") {
+            sonic += 1;
+        }
+        if ($("input:radio[name=color]:checked").val() == "mario") {
+            mario += 1;
+        }
+        if ($("input:radio[name=color]:checked").val() == "samus") {
+            samus += 1;
+        }
+        if ($("input:radio[name=color]:checked").val() == "kirby") {
+            kirby += 1;
+        }
+        // 
+        if ($("input:radio[name=animal]:checked").val() == "sonic") {
+            sonic += 1;
+        }
+        if ($("input:radio[name=animal]:checked").val() == "mario") {
+            mario += 1;
+        }
+        if ($("input:radio[name=animal]:checked").val() == "samus") {
+            samus += 1;
+        }
+        if ($("input:radio[name=animal]:checked").val() == "kirby") {
+            kirby += 1;
+        }
+        // 
+        if ($("input:radio[name=food]:checked").val() == "sonic") {
+            sonic += 1;
+        }
+        if ($("input:radio[name=food]:checked").val() == "mario") {
+            mario += 1;
+        }
+        if ($("input:radio[name=food]:checked").val() == "samus") {
+            samus += 1;
+        }
+        if ($("input:radio[name=food]:checked").val() == "kirby") {
+            kirby += 1;
+        }
+        // 
+        if ($("input:radio[name=videoGame]:checked").val() == "sonic") {
+            sonic += 1;
+        }
+        if ($("input:radio[name=videoGame]:checked").val() == "mario") {
+            mario += 1;
+        }
+        if ($("input:radio[name=videoGame]:checked").val() == "samus") {
+            samus += 1;
+        }
+        if ($("input:radio[name=videoGame]:checked").val() == "kirby") {
+            kirby += 1;
+        }
+        
+    });
 }); 
